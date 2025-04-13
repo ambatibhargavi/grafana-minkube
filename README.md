@@ -97,9 +97,9 @@ kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.admin-pass
 
 | Namespace | Screenshot |
 |----------|------------|
-| `ns1`    | ![ns1](<img width="761" alt="Screenshot 2025-04-13 at 13 18 30" src="https://github.com/user-attachments/assets/432d70a8-b433-416a-acc9-7f1c1d59d36a" />) |
-| `ns2`    | ![ns2](<img width="783" alt="Screenshot 2025-04-13 at 13 18 45" src="https://github.com/user-attachments/assets/25a9b978-da19-4dc3-bf49-3edf753a057b" />) |
-| `ns3`    | ![ns3](<img width="742" alt="Screenshot 2025-04-13 at 13 19 03" src="https://github.com/user-attachments/assets/05b9064c-70e7-44f9-92e0-8a65b949ed7d" />) |
+| `ns1`    | !(<img width="761" alt="Screenshot 2025-04-13 at 13 18 30" src="https://github.com/user-attachments/assets/432d70a8-b433-416a-acc9-7f1c1d59d36a" />) |
+| `ns2`    | !(<img width="783" alt="Screenshot 2025-04-13 at 13 18 45" src="https://github.com/user-attachments/assets/25a9b978-da19-4dc3-bf49-3edf753a057b" />) |
+| `ns3`    | !(<img width="742" alt="Screenshot 2025-04-13 at 13 19 03" src="https://github.com/user-attachments/assets/05b9064c-70e7-44f9-92e0-8a65b949ed7d" />) |
 
 ---
 
