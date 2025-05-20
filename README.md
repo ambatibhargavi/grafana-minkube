@@ -85,9 +85,9 @@ kubectl get secret --namespace monitoring grafana -o jsonpath="{.data.admin-pass
 ## Port Forwarding Prometheus and Grafana
 
 
-kubectl port-forward svc/grafana 3000:80 -n monitoring
-kubectl port-forward svc/prometheus-server 9090:80 -n monitoring
-http://prometheus-server.monitoring.svc.cluster.local -----> Datasource
+- kubectl port-forward svc/grafana 3000:80 -n monitoring
+- kubectl port-forward svc/prometheus-server 9090:80 -n monitoring
+- http://prometheus-server.monitoring.svc.cluster.local -----> Datasource
 
 ---
 
